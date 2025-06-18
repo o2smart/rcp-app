@@ -1,0 +1,15 @@
+
+# Guia Codemagic (Português)
+
+1. Acesse: https://codemagic.io
+2. Crie uma conta (ou entre com GitHub ou Google)
+3. Crie um novo App e conecte ao repositório do projeto (pode subir esse zip no GitHub)
+4. Escolha Flutter App -> configure a versão do SDK (recomendo Flutter 3.10+)
+5. Em build settings:
+   - Plataforma: Android
+   - Artefato: APK
+   - Branch: main (ou a branch que estiver usando)
+6. Clique em "Start Build"
+7. Após a finalização, baixe o APK diretamente do painel do Codemagic
+
+Caso precise de ajuda, posso orientar você aqui passo a passo.
